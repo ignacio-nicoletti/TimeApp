@@ -1,0 +1,15 @@
+.box {
+  background-color: white;
+  width: 20%;
+  height: 98vh;
+  margin-right: 80%;
+  border: 5px solid black;
+}
+
+.info {
+  margin-top: 55%;
+}
+
+.foto {
+  margin-top: 10%;
+}
