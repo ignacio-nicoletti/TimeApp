@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import './App.css';
+import Cities from './components/cities/Cities';
 import Day from './components/Day/Day';
 
 
@@ -10,11 +11,11 @@ export const App = () => {
 
 
   return (
-    <div className="App">
-      {/* <header className="App-header"> */}
-      <Day />
+    <div >
 
-      {/* </header> */}
+      <Day />
+      <Cities />
+
     </div >
   );
 }

@@ -1,0 +1,22 @@
+.box {
+  /* background-color: red;
+  border: 5px solid black;
+  justify-content: center;
+  margin-left: 30%; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  /* padding: 1rem; */
+  /* overflow: hidden; */
+}
+
+.city {
+  border: 5px solid black;
+  /* display: grid;
+  grid-template-columns: repeat(2, 1fr); */
+  width: 40%;
+}
+
+p {
+  margin: 5px;
+}
