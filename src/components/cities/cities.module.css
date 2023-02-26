@@ -1,22 +1,31 @@
 .box {
-  /* background-color: red;
-  border: 5px solid black;
-  justify-content: center;
-  margin-left: 30%; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
-  /* padding: 1rem; */
-  /* overflow: hidden; */
+  justify-content: center;
+  margin-top: 5%;
+  background-color: aliceblue;
 }
 
 .city {
   border: 5px solid black;
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
-  width: 40%;
+  width: 60%;
+  text-align: center;
 }
 
 p {
   margin: 5px;
+}
+h2 {
+  text-align: center;
+}
+
+.button {
+  text-align: center;
+}
+.btn {
+  font-size: 2rem;
+  padding: 0.5%;
+  margin: 1%;
 }

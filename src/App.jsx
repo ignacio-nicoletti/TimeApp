@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import './App.css';
+import React from 'react';
+import style from './App.module.css';
 import Cities from './components/cities/Cities';
 import Day from './components/Day/Day';
 
@@ -11,12 +11,12 @@ export const App = () => {
 
 
   return (
-    <div >
+    <div className={style.fondo}>
 
       <Day />
       <Cities />
 
-    </div >
+    </div>
   );
 }
 export default App
